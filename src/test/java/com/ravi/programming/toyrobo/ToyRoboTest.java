@@ -15,7 +15,6 @@ import static org.junit.Assert.assertEquals;
 @SpringBootTest
 public class ToyRoboTest {
     private final ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
-    private final PrintStream systemOutStream = System.out;
 
     @Before
     public void setUpStreams() {
